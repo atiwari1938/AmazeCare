@@ -1,0 +1,79 @@
+/* src/styles/Location.css */
+.location-container {
+    /* display: flex; */
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+
+  
+  .location-list {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+
+    max-width: 55rem;
+    margin-right: 20px;
+  }
+  
+  .location-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: white;
+  }
+  
+  .location-item.active,
+  .location-item:hover {
+    border-color: #1E8FFD;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* .location-icon {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  } */
+  
+  .location-details {
+    width: 35%; /* Adjust width to fit next to the list */
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: 35rem;
+  }
+  .location-wrap {
+    display:flex;
+  }
+  .location-image {
+    width: 100%; /* Adjust to fit container width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+    margin-bottom: 20px;
+    object-fit: cover;
+  }
+  
+  .location-details h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .location-details p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .phone-number {
+    font-weight: bold;
+  }
+  
+
+  

@@ -1,0 +1,111 @@
+/* adminDashboard.css */
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logout-button {
+  padding: 10px 20px;
+  background-color: #dc3545; /* Red background color */
+  color: white; /* White text color */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Add border radius */
+  font-size: 16px; /* Increase font size */
+  cursor: pointer; /* Add pointer cursor on hover */
+}
+
+.logout-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+.toggle-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.toggle-buttons button {
+  margin: 0 10px; /* Space between toggle buttons */
+  padding: 10px 20px;
+  background-color: #28a745; /* Green background color */
+  color: white; /* White text color */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Add border radius */
+  font-size: 16px; /* Increase font size */
+  cursor: pointer; /* Add pointer cursor on hover */
+}
+
+.toggle-buttons button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  margin: 0 0 5px;
+}
+
+.card p {
+  margin: 0;
+}
+
+.card button {
+  margin-top: 10px;
+  margin-right: 5px; /* Space between buttons inside card */
+  padding: 10px 15px;
+  background-color: #007bff; /* Blue background color */
+  color: white; /* White text color */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Add border radius */
+  font-size: 14px; /* Increase font size */
+  cursor: pointer; /* Add pointer cursor on hover */
+}
+
+.card button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.card .delete-button {
+  background-color: #dc3545; /* Red background color */
+}
+
+.card .delete-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+.add-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.add-card button {
+  padding: 10px 20px;
+  background-color: #28a745; /* Green background color */
+  color: white; /* White text color */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Add border radius */
+  font-size: 16px; /* Increase font size */
+  cursor: pointer; /* Add pointer cursor on hover */
+}
+
+.add-card button:hover {
+  background-color: #218838; /* Darker green on hover */
+}

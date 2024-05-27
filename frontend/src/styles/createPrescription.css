@@ -1,0 +1,78 @@
+.create-prescription,
+.create-record-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-prescription h2,
+.create-record-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.create-prescription form,
+.create-record-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-prescription form div,
+.create-record-container .form-group {
+  margin-bottom: 15px;
+}
+
+.create-prescription form label,
+.create-record-container .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.create-prescription form input,
+.create-prescription form textarea,
+.create-record-container .form-group input {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin: 5px 0 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.create-prescription form button,
+.create-record-container button[type="submit"] {
+  width: 100%;
+  padding: 14px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.create-prescription form button:hover,
+.create-record-container button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.create-prescription form fieldset,
+.create-record-container form fieldset {
+  border: 2px solid #4CAF50;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.create-prescription form legend,
+.create-record-container form legend {
+  padding: 0 10px;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #4CAF50;
+}
