@@ -23,7 +23,7 @@ const Header = () => {
                         <Nav.Link href='/About'>About Us</Nav.Link>
                         <Nav.Link href='/Services'>Services</Nav.Link>
                     </Nav>
-                    <Form className="d-flex ms-auto">
+                    {/* <Form className="d-flex ms-auto">
                         <FormControl
                             type="search"
                             placeholder="Search"
@@ -31,7 +31,7 @@ const Header = () => {
                             aria-label="Search"
                         />
                         <Button variant="outline-success">Search</Button>
-                    </Form>
+                    </Form> */}
                 </Navbar.Collapse>
             </div>
         </Navbar>

@@ -180,7 +180,7 @@ function Login() {
               <option value="Admin">Admin</option>
             </select>
           </div>
-          <button type="submit">Login</button>
+          <button type="submit" style={{margin:"1rem 0"}}>Login</button>
           <button type="button" onClick={() => setIsRegistering(true)}>Create a account</button>
         </form>
       )}

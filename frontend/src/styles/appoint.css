@@ -1,0 +1,90 @@
+.create-appointment {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-appointment h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .create-appointment form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .create-appointment .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .create-appointment label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .create-appointment input[type="date"],
+  .create-appointment input[type="text"],
+  .create-appointment select {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 5px 0 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .create-appointment select {
+    appearance: none;
+  }
+  
+  .create-appointment input[type="date"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-right: 30px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="%23333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+  }
+  
+  .create-appointment button[type="submit"] {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  .create-appointment button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .create-appointment fieldset {
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .create-appointment table{
+    margin-bottom: 20px;
+  }
+  .create-appointment button.back-to-dashboard {
+    margin-bottom: 20px;
+  }
+  .create-appointment legend {
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #4CAF50;
+  }
+  

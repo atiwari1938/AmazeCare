@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import {jwtDecode} from 'jwt-decode';
 import { useLocation, useNavigate } from 'react-router-dom';
+import "../styles/appoint.css"
 
 function CreateAppointment() {
   const location = useLocation();
@@ -111,30 +112,36 @@ function CreateAppointment() {
   return (
     <div className="create-appointment">
       <h2>Create Appointment</h2>
-      <button onClick={handleBack}>Back to Dashboard</button>
-      <div>
-        <label>Patient Name:</label>
-        <div>{patientName}</div>
-      </div>
-      <div>
-        <label>Doctor Name:</label>
-        <div>{doctorName}</div>
-      </div>
-      <div>
-        <label>Date:</label>
-        <input type="date" value={AppointmentDate} onChange={handleDateChange} />
-      </div>
-      <div>
-        <label>Symptoms:</label>
-        <input type="text" value={Symptoms} onChange={handleSymptomsChange} />
-      </div>
-      <div>
-        <label>Appointment Status:</label>
-        <select value={AppointmentStatus} onChange={handleStatusChange}>
-          <option value="pending">Pending</option>
-          <option value="completed">Completed</option>
-        </select>
-      </div>
+      <button onClick={handleBack} className='back-to-dashboard'>Back to Dashboard</button>
+      <fieldset>
+        <legend>Patient and Doctor Information</legend>
+        <div>
+          <label>Patient Name:</label>
+          <div>{patientName}</div>
+        </div>
+        <div>
+          <label>Doctor Name:</label>
+          <div>{doctorName}</div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Appointment Details</legend>
+        <div>
+          <label>Date:</label>
+          <input type="date" value={AppointmentDate} onChange={handleDateChange} />
+        </div>
+        <div>
+          <label>Symptoms:</label>
+          <input type="text" value={Symptoms} onChange={handleSymptomsChange} />
+        </div>
+        <div>
+          <label>Appointment Status:</label>
+          <select value={AppointmentStatus} onChange={handleStatusChange}>
+            <option value="pending">Pending</option>
+            <option value="completed">Completed</option>
+          </select>
+        </div>
+      </fieldset>
       <button onClick={handleScheduleAppointment}>Schedule Appointment</button>
     </div>
   );

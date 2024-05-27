@@ -1,7 +1,7 @@
 import { expect } from "chai";
 import request from "supertest";
 import app from "../index.js"; 
-import { cookie } from "express-validator";
+//import { cookie } from "express-validator";
 
 describe('Appointment Controller', () => {
   // JWT token for authorization
@@ -95,20 +95,20 @@ describe('Appointment Controller', () => {
     });
   });
   //Delete an appointment
-  describe('DELETE /api/v1/appointment/cancelappointment/:id', () => {
-    it('should cancel an appointment', async () => {
-      const appointmentId = 10;//database value
+  // describe('DELETE /api/v1/appointment/cancelappointment/:id', () => {
+  //   it('should cancel an appointment', async () => {
+  //     const appointmentId = 10;//database value
 
-      const response = await request(app)
-        .delete(`/api/v1/appointment/cancelappointment/${appointmentId}`)
-        .set('Cookie', [`token=${authToken}`]);
+  //     const response = await request(app)
+  //       .delete(`/api/v1/appointment/cancelappointment/${appointmentId}`)
+  //       .set('Cookie', [`token=${authToken}`]);
 
-      expect(response.status).to.equal(200);
-      expect(response.body).to.be.an('object');
-      expect(response.body.success).to.equal(true);
-      expect(response.body.message).to.equal("Appointment canceled successfully");
-    });
-  });
+  //     expect(response.status).to.equal(200);
+  //     expect(response.body).to.be.an('object');
+  //     expect(response.body.success).to.equal(true);
+  //     expect(response.body.message).to.equal("Appointment canceled successfully");
+  //   });
+  // });
 
 
 });

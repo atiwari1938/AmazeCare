@@ -391,8 +391,8 @@ function PatientDashboard() {
         value={newAppointmentDate}
         onChange={(e) => setNewAppointmentDate(e.target.value)}
       />
-      <button onClick={handleRescheduleSubmit}>Submit</button>
-      <button onClick={() => setShowRescheduleModal(false)}>Cancel</button>
+      <button onClick={handleRescheduleSubmit} style={{maxWidth:"13rem",margin:"0.5rem auto"}}>Submit</button>
+      <button onClick={() => setShowRescheduleModal(false)} style={{maxWidth:"13rem",margin:"0.5rem auto",backgroundColor:"red"}}>Cancel</button>
     </div>
   </div>
 )}
