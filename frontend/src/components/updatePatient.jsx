@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useParams, useNavigate } from 'react-router-dom';
-import "../styles/form.css"; // Ensure you have appropriate styles in this file
+import "../styles/form.css"; 
 
 const UpdatePatient = () => {
   const { id } = useParams();

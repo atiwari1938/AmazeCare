@@ -6,7 +6,7 @@
     gap: 24px;
     background: linear-gradient(to right, #ECF2FF, #FBFCFF);
 }
-/* Image */
+
 .about-image-content {
     width: 50%;
     max-width: 100%;
@@ -16,7 +16,6 @@
     width: 80%;
     height: auto;
 }
-/* Text */
 .about-text-content {
     width: 50%;
 }
@@ -54,7 +53,7 @@
     font-weight: bold;
     letter-spacing: .7px;
 }
-/* Steps */
+
 .about-text-step {
     margin: 16px 0;
 }
@@ -74,7 +73,6 @@
 .fa-icon {
     color: #9D2553;
 }
-/* Responsive */
 @media screen and (max-width: 1000px) {
     .about-section {
         display: block;

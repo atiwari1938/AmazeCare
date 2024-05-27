@@ -16,7 +16,7 @@ const Header = () => {
                 <Navbar.Collapse id="basic-navbar-nav" className='d-flex justify-content-between align-items-center'>
                     <Nav className="mx-auto">
                         <NavDropdown title="Doctors" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/find-doctor">Find Doctor</NavDropdown.Item>
+                            <NavDropdown.Item href="/login">Find Doctor</NavDropdown.Item>
                             <NavDropdown.Item href="/appointment">Book Appointment</NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link href="/login">Login</Nav.Link>

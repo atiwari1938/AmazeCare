@@ -3,7 +3,7 @@ import request from "supertest";
 import app from "../index.js"; 
 
 describe('User Controller', () => {
-    const authToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiZW1haWwiOiJzdXl1a3RpQGdtYWlsLmNvbSIsIlVzZXJSb2xlIjoiRG9jdG9yIiwiaWF0IjoxNzE2MDExNTA3LCJleHAiOjE3MTY2MTYzMDd9.iHosxAiacrGtmALLLwFn6pRxWB9et-IVAUE2fHfQrBk';
+    const authToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYXRpZW50SWQiOjEsImVtYWlsIjoiYW5tb2xAZ21haWwuY29tIiwiVXNlclJvbGUiOiJQYXRpZW50IiwiaWF0IjoxNzE2NzgzMzMxLCJleHAiOjE3MTczODgxMzF9.CGKwif4G90efJcEhohKirzvT3QXaFRmCh8nChzDGrIM';
 
   describe('POST /api/v1/user/patientregister', () => {
     it('should register a new patient', async () => {

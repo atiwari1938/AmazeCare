@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import '../styles/createRecord.css'; // Import the CSS file
+import '../styles/createRecord.css';
 
 function CreateRecord() {
   const [formData, setFormData] = useState({

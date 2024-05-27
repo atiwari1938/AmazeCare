@@ -3,6 +3,7 @@ import axios from 'axios';
 import '../styles/patientDashboard.css';
 import { useNavigate } from 'react-router-dom';
 import { jwtDecode } from 'jwt-decode';
+import { left } from '@popperjs/core';
 
 function PatientDashboard() {
   const [doctors, setDoctors] = useState([]);
@@ -261,7 +262,7 @@ function PatientDashboard() {
         <h4>Patient Dashboard</h4>
         <button className="logout-button" onClick={handleLogout}>Logout</button>
       </div>
-      <h2>Welcome, {patientName}</h2>
+      <h2 style={{textAlign:left}}>Welcome, {patientName}</h2>
       <div className="services-section">
         <button onClick={handleViewDoctors}>
           {showDoctors ? 'Hide Doctors' : 'View Doctors'}

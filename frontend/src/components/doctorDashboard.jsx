@@ -157,7 +157,7 @@ function DoctorDashboard() {
         },
       });
       if (response.data.success) {
-        setPrescriptions(response.data.Prescriptions); // Correct the property name here
+        setPrescriptions(response.data.Prescriptions); 
         setShowPrescriptions(true);
       } else {
         console.error('Error fetching prescriptions:', response.data.error);

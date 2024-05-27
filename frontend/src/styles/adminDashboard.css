@@ -1,4 +1,4 @@
-/* adminDashboard.css */
+
 
 .dashboard-header {
   display: flex;
@@ -9,16 +9,16 @@
 
 .logout-button {
   padding: 10px 20px;
-  background-color: #dc3545; /* Red background color */
-  color: white; /* White text color */
-  border: none; /* Remove default border */
-  border-radius: 5px; /* Add border radius */
-  font-size: 16px; /* Increase font size */
-  cursor: pointer; /* Add pointer cursor on hover */
+  background-color: #dc3545; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  font-size: 16px; 
+  cursor: pointer; 
 }
 
 .logout-button:hover {
-  background-color: #c82333; /* Darker red on hover */
+  background-color: #c82333; 
 }
 
 .toggle-buttons {
@@ -28,18 +28,18 @@
 }
 
 .toggle-buttons button {
-  margin: 0 10px; /* Space between toggle buttons */
+  margin: 0 10px; 
   padding: 10px 20px;
-  background-color: #28a745; /* Green background color */
-  color: white; /* White text color */
-  border: none; /* Remove default border */
-  border-radius: 5px; /* Add border radius */
-  font-size: 16px; /* Increase font size */
-  cursor: pointer; /* Add pointer cursor on hover */
+  background-color: #28a745; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  font-size: 16px; 
+  cursor: pointer; 
 }
 
 .toggle-buttons button:hover {
-  background-color: #218838; /* Darker green on hover */
+  background-color: #218838; 
 }
 
 .card-container {
@@ -67,26 +67,26 @@
 
 .card button {
   margin-top: 10px;
-  margin-right: 5px; /* Space between buttons inside card */
+  margin-right: 5px; 
   padding: 10px 15px;
-  background-color: #007bff; /* Blue background color */
-  color: white; /* White text color */
-  border: none; /* Remove default border */
-  border-radius: 5px; /* Add border radius */
-  font-size: 14px; /* Increase font size */
-  cursor: pointer; /* Add pointer cursor on hover */
+  background-color: #007bff; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  font-size: 14px; 
+  cursor: pointer; 
 }
 
 .card button:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+  background-color: #0056b3; 
 }
 
 .card .delete-button {
-  background-color: #dc3545; /* Red background color */
+  background-color: #dc3545; 
 }
 
 .card .delete-button:hover {
-  background-color: #c82333; /* Darker red on hover */
+  background-color: #c82333; 
 }
 
 .add-card {
@@ -98,14 +98,14 @@
 
 .add-card button {
   padding: 10px 20px;
-  background-color: #28a745; /* Green background color */
-  color: white; /* White text color */
-  border: none; /* Remove default border */
-  border-radius: 5px; /* Add border radius */
-  font-size: 16px; /* Increase font size */
-  cursor: pointer; /* Add pointer cursor on hover */
+  background-color: #28a745; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  font-size: 16px; 
+  cursor: pointer; 
 }
 
 .add-card button:hover {
-  background-color: #218838; /* Darker green on hover */
+  background-color: #218838; 
 }
